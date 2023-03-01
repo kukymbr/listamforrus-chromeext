@@ -1,5 +1,11 @@
 ## v0
 
+### v0.1.0
+
+* Add structure
+* Apply price normalizer to all classifieds
+* Fix thousands separator
+
 ### v0.0.1
 
 * Rent items price normalizer

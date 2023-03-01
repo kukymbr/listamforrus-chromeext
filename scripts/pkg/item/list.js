@@ -1,9 +1,9 @@
 "use strict";
 
-class ListProcessor {
+class ItemList {
 
     /**
-     * List container element
+     * List container.js element
      * @type {Element}
      * @private
      */

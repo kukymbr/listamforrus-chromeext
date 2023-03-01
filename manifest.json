@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "List.am for Russians",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Format list.am website for Russian visitor",
   "icons": {
     "16": "images/16.png",
@@ -12,9 +12,22 @@
   "content_scripts": [
     {
       "js": [
-        "scripts/price.js",
-        "scripts/list.js",
-        "scripts/rent.js",
+        "scripts/pkg/constants.js",
+
+        "scripts/pkg/price/price.js",
+        "scripts/pkg/price/price.test.js",
+        "scripts/pkg/price/rates.js",
+        "scripts/pkg/price/converter.js",
+        "scripts/pkg/price/normalizer.js",
+
+        "scripts/pkg/item/item.js",
+        "scripts/pkg/item/list.js",
+        "scripts/pkg/item/detector.js",
+        "scripts/pkg/item/normalizer.js",
+
+        "scripts/pkg/container.js",
+        "scripts/pkg/bootstrap.js",
+
         "scripts/content.js"
       ],
       "matches": [
