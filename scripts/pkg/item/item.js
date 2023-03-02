@@ -42,7 +42,6 @@ class Item {
         this.type = itemType
 
         this.parse()
-        this.applyStyles()
     }
 
     /**
@@ -81,19 +80,6 @@ class Item {
     }
 
     /**
-     * @private
-     */
-    applyStyles() {
-        if (this.isValid()) {
-            if (this.type === ITEM_TYPE_SIDEBAR) {
-                this.itemElement.setAttribute("style", "display:flex !important")
-            }
-        } else {
-            this.itemElement.style.opacity = ".5"
-        }
-    }
-
-    /**
      * @return {Price}
      */
     getPrice() {
@@ -106,5 +92,19 @@ class Item {
     setPrice(price) {
         this.price = price
         this.priceElement.innerHTML = price.toString()
+    }
+
+    /**
+     * @return {string}
+     */
+    getType() {
+        return this.type
+    }
+
+    /**
+     * @return {Element}
+     */
+    getItemElement() {
+        return this.itemElement
     }
 }

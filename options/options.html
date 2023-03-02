@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List.am 4Rus</title>
+    <link rel="stylesheet" href="options.css"/>
+</head>
+<body>
+
+<form id="settings">
+    <fieldset>
+        <div>
+            <label>
+                <input data-setting name="tiwp" value="1" type="checkbox"> Делать прозрачными объявления без цены
+            </label>
+        </div>
+        <div>
+            <label>
+                <input data-setting name="sms" value="1" type="checkbox"> Показывать больше похожих объявлений
+            </label>
+        </div>
+    </fieldset>
+</form>
+<p>
+    <button id="apply">Сохранить</button>
+</p>
+<p id="status"></p>
+
+<script src="../scripts/pkg/settings/settings.js"></script>
+<script src="../scripts/pkg/settings/storage.js"></script>
+<script src="./options.js"></script>
+</body>
+</html>

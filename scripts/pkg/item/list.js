@@ -27,7 +27,7 @@ class ItemList {
 
         this.valid = !!this.container
         if (this.valid) {
-            console.log("list container registered: ", container)
+            console.debug("list container registered: ", container)
         }
     }
 

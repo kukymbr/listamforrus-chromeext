@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0 20px;
+    min-width: 20rem;
+    font-size: 14px;
+    color: #CCC;
+    background: #292A2D;
+}
+
+fieldset {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #555;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 16px;
+
+    cursor: pointer;
+    color: #93B3F2;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid #606367;
+    border-radius: 4px;
+}

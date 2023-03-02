@@ -1,21 +1,26 @@
 ## List.am for Russians
 
-Chrome web extension to format [list.am](https://list.am) website for Russian visitor.
+Расширение для браузера [Google Chrome](https://www.google.com/intl/ru_ru/chrome/)
+для форматирования сайта [list.am](https://list.am/ru) к виду, привычному пользователю из России.
 
-### Features
+В первую очередь будет полезно тем, кто хочет примерно соориентироваться в ценах 
+на [list.am](https://list.am/ru) при поиске, например, жилья.
 
-* Items price normalizer
-  * converts all prices to approximate value in rubles (fixed rates for now);
-  * converts price period to monthly.
+### Функционал
+
+* Приведение цен в объявлениях к рублям.
+* Если у цены есть период "в день"/"в месяц", то цена приводится к помесячной.
+* Частично скрываются объявления без указания цены (можно отключить в настройках).
+* Выводится больше объявлений в блоке "Похожие" (можно отключить в настройках).
 
 See [CHANGELOG.md](CHANGELOG.md) releases changes information.
 
-### Installation
+### Установка
 
-For a while, extension is not available in the Chrome Web Store, 
-so you can install this extension only directly from source files.
+Пока что расширение недоступно в [Chrome Web Store](https://chrome.google.com/webstore/category/extensions),
+так что установка производится из исходных файлов. Для этого:
 
-* Download the latest release .zip file
-* Go to `chrome://extensions` page
-* Enable the `Developer mode` checkbox
-* Select downloaded .zip file via the `Load unpacked` button 
+* Скачайте .zip файл последнего релиза
+* Перейдите на страницу `chrome://extensions` в браузере Google Chrome
+* Включите режим разработчика в правом верхнем углу
+* Выберите скачанный .zip файл с помощью кнопки `Load unpacked` 

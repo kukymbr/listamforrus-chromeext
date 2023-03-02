@@ -14,6 +14,9 @@
       "js": [
         "scripts/pkg/constants.js",
 
+        "scripts/pkg/settings/settings.js",
+        "scripts/pkg/settings/storage.js",
+
         "scripts/pkg/price/price.js",
         "scripts/pkg/price/price.test.js",
         "scripts/pkg/price/rates.js",
@@ -35,5 +38,12 @@
       ],
       "run_at": "document_end"
     }
-  ]
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  }
 }

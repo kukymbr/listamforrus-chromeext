@@ -1,17 +1,26 @@
 "use strict";
 
-function buildContainer() {
-    const priceRates = new PriceRates()
-    const priceConverter = new PriceConverter(priceRates)
-    const priceNormalizer = new PriceNormalizer(priceConverter)
+/**
+ * @param {function} onReady
+ */
+function buildContainer(onReady) {
+    const settingsStorage = new SettingsStorage()
 
-    const itemDetector = new ItemsDetector()
-    const itemNormalizer = new ItemNormalizer(priceNormalizer)
+    settingsStorage.read(function (settings) {
+        const priceRates = new PriceRates()
+        const priceConverter = new PriceConverter(priceRates)
+        const priceNormalizer = new PriceNormalizer(priceConverter)
 
-    return {
-        item: {
-            detector: itemDetector,
-            normalizer: itemNormalizer,
+        const itemDetector = new ItemsDetector()
+        const itemNormalizer = new ItemNormalizer(priceNormalizer, settings)
+
+        const ctn = {
+            item: {
+                detector: itemDetector,
+                normalizer: itemNormalizer,
+            }
         }
-    }
+
+        onReady(ctn)
+    })
 }

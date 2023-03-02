@@ -1,5 +1,9 @@
 ## v0
 
+### v0.1.1
+
+* Options page added
+
 ### v0.1.0
 
 * Add structure

@@ -26,6 +26,7 @@ class ItemsDetector {
     detect() {
         this.detectInList(ITEM_TYPE_MAIN_LIST)
         this.detectInList(ITEM_TYPE_SIDEBAR)
+        this.detectInList(ITEM_TYPE_FEATURED)
         this.detectInContent()
     }
 
