@@ -2,8 +2,6 @@
 
 class PriceRates {
 
-    // TODO: load rates from somewhere
-
     /**
      * @type {Object.<number>}
      * @private
@@ -21,5 +19,21 @@ class PriceRates {
      */
     getRUBRates() {
         return this.rubRates
+    }
+
+    /**
+     * @param {string} currency
+     * @return {number}
+     */
+    getRUBRate(currency) {
+        return this.rubRates[currency] !== undefined ? this.rubRates[currency] : 0
+    }
+
+    /**
+     * @param {string} currency
+     * @param {number} rate
+     */
+    setRUBRate(currency, rate) {
+        this.rubRates[currency] = rate
     }
 }

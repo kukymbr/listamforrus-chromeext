@@ -53,10 +53,20 @@ function initOptionsPage() {
     const inputs = form.querySelectorAll("[data-setting][name]")
     const apply = document.getElementById("apply")
     const status = document.getElementById("status")
+    let messageTimeout;
 
     storage.read(function (sett) {
         settings = sett
         applySettingsToInputs(inputs, settings)
+    })
+
+    inputs.forEach(function (input) {
+        input.addEventListener("change", function () {
+            status.innerHTML = ""
+            if (messageTimeout) {
+                clearTimeout(messageTimeout)
+            }
+        })
     })
 
     apply.addEventListener("click", function () {
@@ -64,9 +74,9 @@ function initOptionsPage() {
 
         storage.save(settings, function () {
             status.innerHTML = "✅ Сохранено. Пожалуйста, перезагрузите страницы list.am для применения настроек.";
-            setTimeout(function() {
+            messageTimeout = setTimeout(function() {
                 status.innerHTML = "";
-            }, 2000);
+            }, 5000);
         })
     })
 }

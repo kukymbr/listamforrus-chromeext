@@ -7,6 +7,10 @@ body {
     background: #292A2D;
 }
 
+input[type="text"], input[type="number"] {
+    padding: 5px;
+}
+
 fieldset {
     padding: 10px 0;
     border: none;
@@ -15,6 +19,17 @@ fieldset {
 
 fieldset:last-of-type {
     border-bottom: none;
+}
+
+legend {
+    padding: 10px 0 0 0;
+    color: #93B3F2;
+    font-weight: bold;
+}
+
+.rates-box label {
+    display: inline-block;
+    min-width: 70px;
 }
 
 button {

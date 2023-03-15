@@ -19,11 +19,7 @@ class PriceConverter {
      * @returns {Price}
      */
     convertToRUB(price) {
-        const rates = this.rates.getRUBRates()
-        let rate = rates[price.getCurrency()]
-        if (!rate) {
-            rate = 0;
-        }
+        const rate = this.rates.getRUBRate(price.getCurrency())
 
         return new Price(
             price.getValue() * rate,

@@ -12,13 +12,24 @@
     <fieldset>
         <div>
             <label>
-                <input data-setting name="tiwp" value="1" type="checkbox"> Делать прозрачными объявления без цены
+                <input data-setting name="dislike_no_price" value="1" type="checkbox"> Делать прозрачными объявления без цены
             </label>
         </div>
         <div>
             <label>
-                <input data-setting name="sms" value="1" type="checkbox"> Показывать больше похожих объявлений
+                <input data-setting name="more_similar" value="1" type="checkbox"> Показывать больше похожих объявлений
             </label>
+        </div>
+    </fieldset>
+    <fieldset class="rates-box">
+        <legend>Курсы валют</legend>
+        <div>
+            <label for="inp-rate-usd-rub">1 USD =</label>
+            <input data-setting type="number" step="0.01" id="inp-rate-usd-rub" name="rate_usd_rub" value="75"> ₽
+        </div>
+        <div>
+            <label for="inp-rate-amd-rub">1 AMD =</label>
+            <input data-setting type="number" step="0.01" id="inp-rate-amd-rub" name="rate_amd_rub" value="0.2"> ₽
         </div>
     </fieldset>
 </form>
@@ -27,6 +38,8 @@
 </p>
 <p id="status"></p>
 
+<script src="../scripts/pkg/constants.js"></script>
+<script src="../scripts/pkg/price/rates.js"></script>
 <script src="../scripts/pkg/settings/settings.js"></script>
 <script src="../scripts/pkg/settings/storage.js"></script>
 <script src="./options.js"></script>

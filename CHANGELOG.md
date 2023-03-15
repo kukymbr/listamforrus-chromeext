@@ -1,5 +1,10 @@
 ## v0
 
+### v0.2.0
+
+* Added currency rates to the options
+* Icons changed
+
 ### v0.1.1
 
 * Options page added

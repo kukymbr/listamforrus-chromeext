@@ -123,7 +123,7 @@ function parsePriceString(inp) {
 
     let price = parseInt(priceStr, 10)
     if (isNaN(price)) {
-        console.debug("failed to parse rent item (price number): ", inp, priceStr)
+        console.debug("failed to parse price: ", inp, priceStr)
         return null
     }
 

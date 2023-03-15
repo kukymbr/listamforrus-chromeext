@@ -10,6 +10,7 @@ class SettingsStorage {
 
         chrome.storage.sync.get(settings.toObject(), function (data) {
             settings.setFromObject(data)
+            console.debug("settings loaded: ", settings.toObject())
             onDone(settings)
         })
     }
