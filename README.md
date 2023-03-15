@@ -13,11 +13,11 @@
 * Частично скрываются объявления без указания цены (можно отключить в настройках).
 * Выводится больше объявлений в блоке "Похожие" (можно отключить в настройках).
 
-<img src="https://github.com/kukymbr/listamforrus-chromeext/blob/master/images/screenshot_1.png?raw=true" width="500" alt="Скриншот с форматированными ценами"/>
+<img src="https://github.com/kukymbr/listamforrus-chromeext/blob/main/images/screenshot_1.png?raw=true" width="500" alt="Скриншот с форматированными ценами"/>
 
-<img src="https://github.com/kukymbr/listamforrus-chromeext/blob/master/images/screenshot_2.png?raw=true" width="500" alt="Скриншот с длинным списком похожих объявлений"/>
+<img src="https://github.com/kukymbr/listamforrus-chromeext/blob/main/images/screenshot_2.png?raw=true" width="500" alt="Скриншот с длинным списком похожих объявлений"/>
 
-<img src="https://github.com/kukymbr/listamforrus-chromeext/blob/master/images/screenshot_3.png?raw=true" width="500" alt="Скриншот с настройками"/>
+<img src="https://github.com/kukymbr/listamforrus-chromeext/blob/main/images/screenshot_3.png?raw=true" width="500" alt="Скриншот с настройками"/>
 
 See [CHANGELOG.md](CHANGELOG.md) releases changes information.
 
