@@ -19,6 +19,8 @@ See [CHANGELOG.md](CHANGELOG.md) releases changes information.
 
 #### Из Chrome Web Store 
 
+**⚠️ Временно недоступно.**
+
 Расширение можно установить из [Chrome Web Store](https://chrome.google.com/webstore/category/extensions).
 
 #### Вручную
