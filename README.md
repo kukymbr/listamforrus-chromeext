@@ -13,6 +13,10 @@
 * Частично скрываются объявления без указания цены (можно отключить в настройках).
 * Выводится больше объявлений в блоке "Похожие" (можно отключить в настройках).
 
+![Скриншот с форматированными ценами](https://github.com/kukymbr/listamforrus-chromeext/blob/master/images/screenshot_1.png?raw=true | width=500)
+![Скриншот с длинным списком похожих объявлений](https://github.com/kukymbr/listamforrus-chromeext/blob/master/images/screenshot_2.png?raw=true | width=500)
+![Скриншот с настройками](https://github.com/kukymbr/listamforrus-chromeext/blob/master/images/screenshot_3.png?raw=true | width=500)
+
 See [CHANGELOG.md](CHANGELOG.md) releases changes information.
 
 ### Установка
