@@ -25,9 +25,8 @@ See [CHANGELOG.md](CHANGELOG.md) releases changes information.
 
 #### Из Chrome Web Store 
 
-**⚠️ Временно недоступно.**
-
-Расширение можно установить из [Chrome Web Store](https://chrome.google.com/webstore/category/extensions).
+Расширение можно установить из [Chrome Web Store](https://chrome.google.com/webstore/detail/listam-4rus/idnamihinfodcapgnpalbacdgbfadeng?hl=ru).
+Это приоритетный способ установки для использования расширения.
 
 #### Вручную
 
