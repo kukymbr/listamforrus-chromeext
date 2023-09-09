@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "List.am 4RUS",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Форматирет сайт list.am к виду, привычному русскоязычному пользователю",
   "icons": {
     "16": "images/16.png",

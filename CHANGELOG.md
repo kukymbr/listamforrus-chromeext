@@ -1,5 +1,9 @@
 ## v0
 
+### v0.2.1
+
+* Changed ruble rates to the actual by default
+
 ### v0.2.0
 
 * Added currency rates to the options
