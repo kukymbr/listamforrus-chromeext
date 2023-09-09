@@ -10,8 +10,8 @@ class PriceRates {
 
     constructor() {
         this.rubRates[CURRENCY_RUB] = 1
-        this.rubRates[CURRENCY_AMD] = 0.2
-        this.rubRates[CURRENCY_USD] = 75
+        this.rubRates[CURRENCY_AMD] = 0.25
+        this.rubRates[CURRENCY_USD] = 98
     }
 
     /**
